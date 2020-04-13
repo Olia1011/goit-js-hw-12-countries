@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-image: url(../../goit-js-hw-12-countries-master/src/images/_1378-1002.jpg);
+  background-image: url(./images/_1378-1002.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Dancing Script', serif;
