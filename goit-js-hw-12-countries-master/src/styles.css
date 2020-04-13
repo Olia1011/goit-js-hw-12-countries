@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(./images/_1378-1002.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Dancing Script', serif;
+  color:rgb(59, 59, 98)
+}
+
+.container {
+  width: 800px;
+}
+
+.main_title {
+  font-family: 'Dancing Script', serif;
+  margin-left: 40px;
+}
+
+.countryList {
+  font-size: 32px;
+}
+
+.country {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+
+/* .descriptionList {
+  padding-left: 60px;
+} */
+
+
+.descriptionList__item-style {
+  font-size: 20px;
+  font-weight: 700;
+}
+.detail {
+  font-weight: normal;
+}
+
+.language{
+  font-size: 20px;
+}
+
+.flag {
+  margin-right: 150px;
+} 
+ 
+.input {
+  border: 2px solid #403e41;
+  background-color: transparent;
+  font-family: 'Dancing Script', serif;
+  outline: none;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  margin-left: 35px;
+  font-size: 15px;
+  color: rgb(58, 38, 105);
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+

@@ -1,0 +1,22 @@
+<h2 class="country">{{name}}</h2>
+<div class="description">
+    <ul class="descriptionList">
+      <li class="descriptionList__item">
+        <p class="descriptionList__item-style">Capital:
+           <span class="detail">{{capital}}</span></p>
+      </li>
+      <li class="descriptionList__item">
+        <p class="descriptionList__item-style">Population:
+           <span class="detail">{{population}}</span></p>
+      </li>
+      <li class="descriptionList__item">
+        <p class="descriptionList__item-style">Languages:</p>
+        </li>
+        <ul class="languages">
+            {{#each languages}}
+          <li class="language">{{this.name}}</li>
+          {{/each}}
+    </ul>
+    </ul>
+    <img src="{{flag}}" alt="{{name}}" class="flag" width="320" height="200">
+    </div>
