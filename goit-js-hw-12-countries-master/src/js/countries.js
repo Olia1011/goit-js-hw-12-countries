@@ -11,7 +11,10 @@ const refs = {
 };
 
 refs.input.addEventListener('input', debounce(searchObject, 500));
-refs.input.addEventListener('blur', search);
+refs.input.addEventListener('click',  ()=> {
+  refs.input.value = "";
+});
+refs.input.addEventListener('nochange', search);
 refs.input.addEventListener('focus', getRez);
 
 function searchObject(e) {
@@ -57,6 +60,7 @@ function template({ name }) {
   </li>
   `;
 }
+
 
 function allItems(data) {
   const list = data.map(country => template(country)).join('');
